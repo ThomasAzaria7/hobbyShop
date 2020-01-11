@@ -1,0 +1,64 @@
+.firstSectionContainer{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap: 10px;
+    padding: 2% 5%;
+    margin-bottom: 50px;
+    position: relative;
+
+    p{
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    .accountNav{
+        // padding:0 5%;
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width:100%;
+            height: 100%;
+            // background-color: rgba(224, 224, 224, 0.562);
+            position: relative;
+            li {
+                &:nth-child(odd){
+                // background-color:rgb(206, 204, 204);
+                }
+                text-align: right;
+
+            }
+            li a{
+                display: block;
+                color: #000;
+                padding: 8px 20px;
+                text-decoration: none;
+                height: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+    }
+
+    div{
+        padding: 5% 0;
+
+        &:nth-child(1){
+        // border-right: solid 2px rgb(184, 181, 181);
+
+            h2{
+                background-color: rgb(102, 102, 102);
+                display: inline-block;
+                padding: 10px 0px;
+                width: 100%;
+                color: white;
+            }
+            // background-color: rgb(177, 77, 77);
+
+        }
+        &:nth-child(2){
+            // background-color: rgb(77, 109, 177);4
+
+        }
+    }
+}

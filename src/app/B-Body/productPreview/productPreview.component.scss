@@ -1,0 +1,431 @@
+/* mobile phone */
+@media(max-width:500px){
+    .productPreview{
+        position: relative;
+        padding: 5%;
+        .productPreview__display{
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .productPreview__description{
+            position: relative;
+            
+            h2{
+                margin: 0;
+    
+            }
+            p  {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .productPrice{
+                position: relative;
+                // top: -10px;
+                
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 1.5rem;
+    
+            }
+            .buttons{
+                position: relative;
+                // height: 40px;
+                width: 100%;
+
+                // top: 50px;
+                display: grid;
+                // grid-template-columns: auto auto auto;
+                gap: 5px;
+                // margin-right: 10px;
+                // position: absolute;
+                // bottom: 50px;
+            }
+        }
+     }
+    
+    
+    
+     #productInformation{
+         height: 90vh;
+         position: relative;
+         margin: 0;
+         background-color: rgba(31, 36, 34, 0.212);
+         .productInformation__content{
+            display: grid;
+            grid-template-rows: 10% auto;
+            .productInformation__content-nav{
+    
+    
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    background-color: rgba(161, 161, 161, 0.253);
+                    overflow: hidden;
+                    padding: 10px 4.5%;
+    
+    
+                    li {
+    
+                        float: left;
+                        a{
+                    
+                            display: block;
+                            padding: 10px 10px;
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+                    }
+    
+                
+                }
+            }
+    
+         }
+     }
+
+     .similarProducts{
+        position: relative;
+        .similarProducts__content-description{
+            background-color: rgba(50, 0, 131, 0.466);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 5px;
+
+        
+        }
+    
+        .similarProducts__content{
+            background-color: rgb(216, 216, 216);
+            display: grid;
+            grid-template-columns: 50% auto ;
+    
+      
+    
+            h2{
+                padding: 0 5%;
+            }
+    
+            .similarProducts__content-items{
+                // padding: 0 5%;
+                // grid-template-columns: auto auto auto auto auto;
+                // height: 100%;
+                // position: relative;
+    
+                img{
+                    width: 100%;
+                    // height: 400px;
+                    object-fit: contain;
+             
+    
+                }
+    
+                .similarProducts__content-display{
+                   
+                    // grid-template-rows: auto auto;   
+                }
+    
+             
+               div{
+                //    height: 35vh;
+                   background-color: black;
+                   width: 100%;
+    
+               }
+            }
+        }
+     }
+
+     // 
+
+}
+/* tablets */
+@media(min-width:426px) and (max-width:768px){
+    .productPreview{
+        position: relative;
+        padding: 5%;
+        .productPreview__display{
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .productPreview__description{
+            position: relative;
+            
+            h2{
+                margin: 0;
+    
+            }
+            p  {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .productPrice{
+                position: relative;
+                // top: -10px;
+                
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 1.5rem;
+    
+            }
+            .buttons{
+                position: relative;
+                // height: 40px;
+                width: 100%;
+
+                // top: 50px;
+                display: grid;
+                // grid-template-columns: auto auto auto;
+                gap: 5px;
+                // margin-right: 10px;
+                // position: absolute;
+                // bottom: 50px;
+            }
+        }
+     }
+    
+    
+    
+     #productInformation{
+         height: 90vh;
+         position: relative;
+         margin: 0;
+         background-color: rgba(31, 36, 34, 0.212);
+         .productInformation__content{
+            display: grid;
+            grid-template-rows: 10% auto;
+            .productInformation__content-nav{
+    
+    
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    background-color: rgba(161, 161, 161, 0.253);
+                    overflow: hidden;
+                    padding: 10px 4.5%;
+    
+    
+                    li {
+    
+                        float: left;
+                        a{
+                    
+                            display: block;
+                            padding: 10px 10px;
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+                    }
+    
+                
+                }
+            }
+    
+         }
+     }
+
+     .similarProducts{
+        position: relative;
+        .similarProducts__content-description{
+            background-color: rgba(50, 0, 131, 0.466);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 5px;
+
+        
+        }
+    
+        .similarProducts__content{
+            background-color: rgb(216, 216, 216);
+            display: grid;
+            grid-template-columns: 50% auto ;
+    
+      
+    
+            h2{
+                padding: 0 5%;
+            }
+    
+            .similarProducts__content-items{
+                // padding: 0 5%;
+                // grid-template-columns: auto auto auto auto auto;
+                // height: 100%;
+                // position: relative;
+    
+                img{
+                    width: 100%;
+                    // height: 400px;
+                    object-fit: contain;
+             
+    
+                }
+    
+                .similarProducts__content-display{
+                   
+                    // grid-template-rows: auto auto;   
+                }
+    
+             
+               div{
+                //    height: 35vh;
+                   background-color: black;
+                   width: 100%;
+    
+               }
+            }
+        }
+     }
+
+     // 
+
+}
+/* laptops and beyonf */
+@media(min-width:769px){
+
+    .productPreview{
+        //  background-color: black;
+        //  border-top: solid 1px black;
+        position: sticky;
+        top: 10vh;
+        height: 80vh;
+        display: grid;
+        grid-template-columns: 40% 50%;
+        padding:0 5%;
+        gap: 50px;
+        .productPreview__display{
+            // border: solid 1px black;
+            height: 60vh;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .productPreview__description{
+            position: relative;
+            height: 60vh;
+            
+    
+        
+            h2{
+                margin: 0;
+    
+            }
+            p{
+                
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+            }
+            .buttons{
+                position: relative;
+                height: 40px;
+                // top: 50px;
+                width: 100%;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                gap: 20px;
+                margin-right: 10px;
+                // position: absolute;
+                // bottom: 50px;
+            }
+        }
+     }
+    
+     .similarProducts{
+        // height: 90vh;
+        // position: sticky;
+        position: relative;
+        top: 10vh;
+    
+        .similarProducts__content{
+            background-color: rgb(216, 216, 216);
+            // height: 100%;
+            padding: 5%;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            gap: 20px;
+    
+            .similarProducts__content-description{
+                background-color: black;
+                color: white;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                background-image: url('https://images.pexels.com/photos/2527839/pexels-photo-2527839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+                background-size: cover
+            }
+    
+            h2{
+                padding: 0 5%;
+            }
+    
+            .similarProducts__content-items{
+                padding: 0 5%;
+                // grid-template-columns: auto auto auto auto auto;
+                // height: 100%;
+                // position: relative;
+    
+                img{
+                    width: 100%;
+                    height: 400px;
+                    object-fit: cover;
+             
+    
+                }
+    
+                .similarProducts__content-display{
+                   
+                    // grid-template-rows: auto auto;   
+                }
+    
+             
+               div{
+                   height: 35vh;
+                   background-color: black;
+                   width: 100%;
+    
+               }
+            }
+        }
+     }
+    
+     #productInformation{
+         height: 90vh;
+         position: sticky;
+         top: 10vh;
+         background-color: rgb(58, 151, 120);
+         .productInformation__content{
+            display: grid;
+            grid-template-rows: 10% auto;
+            .productInformation__content-nav{
+    
+    
+                ul{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    // width: 100%;
+                    background-color: rgb(161, 161, 161);
+                    overflow: hidden;
+                    padding: 0 4.5%;
+    
+    
+                    li {
+    
+                        float: left;
+                        a{
+                    
+                            // display: block;
+                            padding: 10px 10px;
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+                    }
+    
+                
+                }
+            }
+    
+         }
+     }
+
+}
+

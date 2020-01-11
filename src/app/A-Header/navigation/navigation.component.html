@@ -1,0 +1,20 @@
+<ul>
+  <div class="nav">
+    <li (click)="shownNav()"  ><a ><i  class="fas fa-bars"></i></a></li>
+    <li class="nav__items"><a routerLink=""> Home</a></li>
+    <li class="nav__items"><a routerLink="store/RC_Cars"> Store</a></li>
+    <li class="nav__items"><a routerLink="whoWeAre"> About</a></li>
+    <li class="nav__items"><a routerLink="preview"> Latest</a></li>
+  </div>
+  <div class="logoDiv">
+    <li  class="logo"><a  routerLink="" >hobbyjockey</a></li>
+  </div>
+<div class="cartSection">
+  <li class="user" *ngIf="!authenticated"  class="user"> <a routerLink="myAccount"><i class="fas fa-user-cog"></i></a></li>
+  <p class="user" *ngIf="authenticated"><a routerLink="myAccount/register">register/signin</a></p>
+  <li  class="cart"><a routerLink="checkout" ><i class="fab fa-opencart"> <span> {{ itemNumber}}</span></i></a></li>
+</div>
+
+
+ 
+</ul>

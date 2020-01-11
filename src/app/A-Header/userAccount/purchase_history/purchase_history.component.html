@@ -1,0 +1,34 @@
+<div style="background-color: white; width: 30vw; height: 60vh; padding: 10px;">
+  
+  <h1 style="background-color: black;color:white; padding:10px;">PURCHASE HISTORY</h1>
+  
+  <h2 style="padding: 10px">Recipt</h2>
+  <p> <strong>ID</strong> :{{id}}</p>
+
+  <hr>
+  
+  
+  <div *ngFor="let data of purchaseHistory">
+
+
+    <div *ngFor="let item of data.items" >
+      <p style="text-transform: uppercase; font-weight:bold">
+        {{item.name}}
+      </p>
+      <p>
+         cost:  {{item.unit_amount.value}}
+        </p>
+        <p>
+          quantity:  {{item.quantity}}
+          </p>
+    </div>
+    <hr>
+      <p style="float: right">
+        <strong>Total Price</strong> 
+        {{data.amount.value}}
+      </p>
+
+  </div>
+
+
+</div>

@@ -1,0 +1,10 @@
+<div  style="position: relative; z-index: 5;">
+    <ul style="position: fixed;" *ngIf="on">
+            <li (click)="shownNav()"><a  routerLink="" >Home</a></li>
+            <li (click)="shownNav()" ><a routerLink="store/RC_Cars" >Store</a></li>
+            <li (click)="shownNav()"><a  routerLink="whoWeAre" >about</a></li>
+            <!-- <li><a  routerLink="" >cart</a></li> -->
+            <li (click)="shownNav()" class="cart"><a routerLink="checkout" ><i class="fab fa-opencart"> <span> cart ({{ cartTotal}})</span></i></a></li>
+
+    </ul>
+</div>

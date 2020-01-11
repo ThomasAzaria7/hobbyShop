@@ -1,0 +1,105 @@
+.form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.aboutusheadingContainer{
+    position: relative;
+    // height:100vh; 
+    // padding: 2% 5%;
+    .aboutusheadingContainer__carousel{
+        position: relative;
+        // background-color: black;
+        height: 60vh;
+        background-image: url('https://images.pexels.com/photos/1601217/pexels-photo-1601217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-size: cover;
+        padding: 0 5%;
+        h1{
+            color: white;
+            font-size: 40px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            position: absolute;
+            right: 5%;
+            top: 30%;
+             
+            // transform: translate(-50%,0);
+            background: rgba(0, 0, 0, 0.63);
+            padding: 10px ;
+  
+          
+        }
+        h2{
+            color: white;
+            position: absolute;
+            left: 50%;
+            top: 70%;
+            transform: translate(-50%,-50%);
+        }
+    }
+}
+
+
+.aboutUsContainer{
+    position: relative;
+    // height: 100vh;
+    .aboutUsContainer__content{
+        padding: 0 5%;
+
+        h2{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .aboutUsContainer__content-sections{
+            display: grid;
+            grid-template-columns: 50% auto;
+            gap: 20px;
+            height: 60vh;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+
+.ourBelieveContainer{
+    position: relative;
+    top: 0px;
+    height: 100vh;
+    .ourBelieveContainer__content{
+        padding: 0 5%;
+
+        h2{
+            text-align: center;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-bottom: 1px solid grey;
+            display: inline-block;
+            text-transform: uppercase;
+            color: white
+        }
+
+        .ourBelieveContainer__content-info{
+            display: grid;
+            grid-template-columns: auto auto;
+            position: relative;
+            height: 60vh;
+            top: 10vh;
+            :nth-child(1){
+                background-color: rgb(160, 0, 0);
+                background-image: url('https://images.pexels.com/photos/1506992/pexels-photo-1506992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            :nth-child(2){
+                background-color: rgb(76, 88, 57);
+            }
+        }
+    }
+}

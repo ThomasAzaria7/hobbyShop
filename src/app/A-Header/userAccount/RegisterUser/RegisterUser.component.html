@@ -1,0 +1,24 @@
+<div class="registerContainer">
+  <form class="registerContainer__myForm" [formGroup]="RegoForm">
+    <h2>Signup using Email and Passowrd</h2>
+      <label for="name" class="" >Name:</label>
+      <input class="form-control" formControlName="name"type="text"><br>
+      <label for="email" class="">Email: </label>
+      <input class="form-control" formControlName="email" type="email"><br>
+      <label for="ConfirmEmail" class="">Confirm Email: </label>
+      <input class="form-control" formControlName="confirmEmail" type="email"><br>
+      <label for="password">password:</label>
+      <input class="form-control" formControlName="password" type="password" name="" id=""><br>
+      <label for="confirmPassword"> confirm password:</label>
+      <input class="form-control" formControlName="confirmPassword" type="password" name="" id="">
+
+      <button type="submit" (click)="signUpUser()"> create user</button>
+      <br>
+      <h2>
+        OR
+      </h2> 
+
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-google-plus-square"></i>
+  </form>
+</div>

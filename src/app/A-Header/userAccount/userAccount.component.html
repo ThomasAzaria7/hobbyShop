@@ -1,0 +1,39 @@
+<section class="firstSectionContainer">
+  <div  style=" background-color: rgba(15, 102, 95, 0.096);  ">
+      <h2 style="">
+          Thomas Azaria
+        </h2>
+
+        <div style="padding:10px;">
+            <img width="100px;" [src]="displayPhoto" alt="">
+     
+          <p>
+              22 Sunny road, sunshine state NSW 2020.
+      
+              
+          </p>
+          <p>
+              0404785974
+          </p>
+
+          <div class="accountNav">
+              <ul>
+                  <li><a routerLink="register">Register</a></li>
+                  <li><a routerLink="signIn">SignIn</a></li>
+
+                <li><a routerLink="purchase_history">purchase history</a></li>
+                <li><a >account Information</a></li>
+                <li><a >favourite</a></li>
+                <li><a >privacy</a></li>
+                <li (click)="logOut()"><a ><button>logout</button></a></li>
+              </ul>
+            </div>
+    </div>
+    
+  
+  </div>
+  <div style="background-color: rgb(218, 218, 218)">
+      <router-outlet></router-outlet>
+
+  </div>
+</section>

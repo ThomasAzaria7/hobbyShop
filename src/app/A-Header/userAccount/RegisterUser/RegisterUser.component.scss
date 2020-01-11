@@ -1,0 +1,28 @@
+.registerContainer{
+    // padding:2%;
+    // margin: 0;
+    // border: solid 1px black;
+    background-color: rgba(170, 170, 170, 0.384);
+    height: 100%;
+    .registerContainer__myForm{
+        padding: 0 10%;;
+
+        .form-control{
+            width: 100%;
+            padding: 5px 0px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        i{
+            font-size: 3rem;
+            padding: 0 10px;
+        }
+        .fa-facebook{
+            color: blue;
+        }
+        .fa-google-plus-square{
+            color: rgb(202, 0, 0);
+        }
+    }
+}

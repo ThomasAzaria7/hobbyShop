@@ -1,0 +1,22 @@
+<div class="registerContainer">
+    <form class="registerContainer__myForm" [formGroup]="signinFrom">
+      <h2>Login page</h2>
+ 
+        <label for="email" class="">Email: </label>
+        <input class="form-control" formControlName="email" type="email"><br>
+      
+        <label for="password">password:</label>
+        <input class="form-control" formControlName="password" type="password" name="" id=""><br>
+  
+  
+        <button type="submit" (click)="SignIn()"> log in </button>
+        <br>
+          <h2>
+            OR
+          </h2> 
+  
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-google-plus-square"></i>
+    </form>
+  </div>
+  

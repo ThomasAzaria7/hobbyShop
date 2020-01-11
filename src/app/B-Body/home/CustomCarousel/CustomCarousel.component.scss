@@ -1,0 +1,413 @@
+
+
+
+
+/* mobile phone */
+@media(max-width:500px){
+
+    .carouselContainer{
+        height: 85vh; 
+        position: relative;
+        width: 100%;
+    }
+    i{
+        background: rgb(18,18,18);
+        background: radial-gradient(circle, rgba(18,18,18,1) 0%, rgba(0,0,0,1) 40%, rgba(255,255,255,1) 85%);
+        opacity: 0.3;
+        font-size: 20px; 
+        color:ivory;
+    }
+    
+    i:hover{
+        opacity: 1;
+    }
+    .click{
+        animation: nextSlide 1s ease-in;  
+    }
+    
+    img{
+        border-radius: 0 0 50px;
+    }
+    
+  
+
+    .descHeader1{
+        position: absolute;
+        bottom: 5vh;
+        // padding: 0 2%;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: white;
+    }
+    .descHeader2{
+        position: absolute;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.295);
+        // padding: 0 10%;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .desc1Mobile{
+
+    }
+
+   .desc1{
+    display: none;
+    }
+     .desc2{
+        display: none;
+
+    }
+
+    .desc3{
+        position: absolute;
+        top: 5vh;
+        left: 0;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.185);
+        padding:10px; 
+        border-radius: 10px;
+        font-size: 16px;
+        animation: textAnimation 2s ease-in
+    }
+    
+    .onChange{
+        animation: headingAnimation 1s ease-in-out
+    }
+
+    .rightSelection{
+        position: absolute; 
+        top: 45%; 
+        right:10px;
+    }
+
+    .leftSelection{
+        position: absolute; 
+        top: 45%; 
+        left:10px; 
+    }
+}
+/* tablets */
+@media(min-width:426px) and (max-width:768px){
+    .carouselContainer{
+        height: 76vh; 
+        position: relative;
+    }
+    i{
+        background: rgb(18,18,18);
+        background: radial-gradient(circle, rgba(18,18,18,1) 0%, rgba(0,0,0,1) 40%, rgba(255,255,255,1) 85%);
+        opacity: 0.3;
+        font-size: 30px; 
+        color:ivory;
+    }
+    
+    i:hover{
+        opacity: 1;
+    }
+    .click{
+        animation: nextSlide 1s ease-in;  
+    }
+    
+    img{
+        border-radius: 0 0 50px;
+    }
+    
+  
+
+    .descHeader1{
+        position: absolute;
+        top: 10vh;
+        left: 1%;
+        width: 40vw;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: white;
+    }
+    .descHeader2{
+        position: absolute;
+        top: 10vh;
+        left: 1%;
+        width: 40vw;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    
+
+   .desc1{
+        position: absolute;
+        top: 18vh;
+        width: 40vw;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.185);
+        padding:10px; 
+        border-radius: 10px;
+        font-size: 0.8em;
+        animation: textAnimation 2s ease-in
+    }
+     .desc2{
+        position: absolute;
+        top: 18vh;
+        width: 40vw;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.185);
+        padding:10px; 
+        border-radius: 10px;
+        font-size: 0.8em;
+        animation: textAnimation 2s ease-in
+    }
+
+    .desc3{
+        position: absolute;
+        top: 25vh;
+        right: 0;
+        width: 20vw;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.185);
+        padding:10px; 
+        border-radius: 10px;
+        font-size: 16px;
+        animation: textAnimation 2s ease-in
+    }
+    
+    .onChange{
+        animation: headingAnimation 1s ease-in-out
+    }
+
+    .rightSelection{
+        position: absolute; 
+        top: 45%; 
+        right:10px;
+    }
+
+    .leftSelection{
+        position: absolute; 
+        top: 45%; 
+        left:10px; 
+    }
+}
+/* laptops and beyonf */
+@media(min-width:769px){
+
+    
+
+    .carouselContainer{ 
+        // position: absolute;
+        // height: 100%;
+        height: 100%;
+
+        div {
+        
+        }
+     
+        h2{
+            font-family: 'Comfortaa', cursive;
+            z-index: 2;
+        }
+        p{
+            font-family: 'Comfortaa', cursive;
+            z-index: 2;
+        }
+
+        .descHeader1{
+            position: absolute;
+            bottom: 50vh;
+            left:8%;
+            // width: 40vw;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            color: rgb(85, 10, 10);
+            // background-color: rgba(0, 0, 0, 0.507);
+            padding: 10px; 
+            display: inline-block;
+        }
+
+        .desc1{
+            position: absolute;
+            bottom: 20vh;
+            right: 4%;
+            width: 25vw;
+            font-size: 0.9em;
+            color: rgb(109, 4, 4);
+            // background-color: rgba(0, 0, 0, 0.336);
+            padding:10px; 
+            border-radius: 10px;
+            animation: textAnimation 2s ease-in
+        }
+    }
+
+
+    i{
+        background: rgb(18,18,18);
+        background: radial-gradient(circle, rgba(18,18,18,1) 0%, rgba(0,0,0,1) 40%, rgba(255,255,255,1) 85%);
+        opacity: 0.3;
+        font-size: 30px; 
+        color:ivory;
+    }
+    
+    i:hover{
+        opacity: 1;
+    }
+    .click{
+        animation: nextSlide 1s ease-in;  
+    }
+    
+    img{
+    
+        
+        /* border-radius: 0 0 50px; */
+    }
+
+    .image1{
+        object-position: 50% 50%;
+    }
+
+    .image2{
+        /* object-position: 50% 50%; */
+        object-fit: contain
+
+    }
+
+    .image3{
+        object-position: 50% 60%
+    }
+    
+  
+
+  
+    .descHeader2{
+        position: absolute;
+        top: 10vh;
+        left: 6%;
+        width: 40vw;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        color: rgb(0, 0, 0);
+    }
+
+    
+
+
+     .desc2{
+        position: absolute;
+        bottom: 15vh;
+        right:  5%;
+        width: 20vw;
+        font-size: 0.9em;
+        color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.336);
+        padding:10px; 
+        border-radius: 10px;
+        animation: textAnimation 2s ease-in
+    }
+
+    .desc3{
+        position: absolute;
+        top: 25vh;
+        right: 5%;
+        width: 20vw;
+        color: rgb(0, 0, 0);
+        // background-color: rgba(0, 0, 0, 0.185);
+        padding:10px; 
+        border-radius: 10px;
+        animation: textAnimation 2s ease-in
+    }
+    
+    .onChange{
+        animation: headingAnimation 1s ease-in-out
+    }
+
+    .rightSelection{
+        position: absolute; 
+        top: 45%; 
+        right:10px;
+        z-index: 2;
+    }
+
+    .leftSelection{
+        position: absolute; 
+        top: 45%; 
+        left:10px; 
+        z-index: 2;
+    
+
+    }
+    
+
+}
+
+
+
+
+
+/* 
+animation definitions
+
+*/
+
+
+     
+@keyframes nextSlide{
+    0%{
+        opacity: .0;
+        
+    }
+    25%{
+        opacity: .55;
+    }
+    75%{
+        opacity: .85;
+    }
+    100%{
+        opacity: 1;
+
+    }
+}
+
+@keyframes headingAnimation{
+    0%{
+        opacity: .0;
+        transform: translate(-100px)
+        
+    }
+    25%{
+        opacity: .55;
+    }
+    75%{
+        opacity: .75;
+        transform: translate(20px)
+
+        /* transform: translate(0px) */
+
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px)
+
+    }
+}
+
+@keyframes textAnimation{
+    0%{
+        opacity: .0;
+        
+    }
+    25%{
+        opacity: 0.0;
+    }
+    85%{
+        opacity: .75;
+        /* transform: translate(0px) */
+
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px)
+
+    }
+}
+
+/*  */

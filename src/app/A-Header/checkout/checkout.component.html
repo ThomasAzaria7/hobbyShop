@@ -1,0 +1,39 @@
+<div class="checkoutContainer">
+  <div class="checkoutContainer__list">
+      <div *ngFor="let item of mycart; let i =index" (click)="showDetail(i)" class="checkoutContainer__listItem ">
+         <div>
+           <img   [src]="item.img" alt="">
+         </div>
+         <div class="checkoutContainer__listItem-itemdetails">
+            <p style="font-family: Arial, Helvetica, sans-serif">{{item.title}}</p>
+            <p class="priceTag">${{item.price}}</p>
+            <i (click)="removeItemFromCart(i)" class="fas fa-trash-alt"></i>
+         </div>
+     
+      </div> 
+      <!-- <p style="color:rgb(0, 0, 0); position:relative; bottom:0; right: 10px"> <a  routerLink="/hello">view all products {{mycart}}/ {{mycart}}</a></p> -->
+  </div>
+  <div class="checkoutContainer__display">
+      <div *ngIf="onDisplay" class="checkoutContainer__display-items">
+
+        <div>
+          <img [src]="onDisplay.img" alt="">
+        </div>
+        <div class="checkoutContainer__display-itemsdesc">
+            <h2>{{onDisplay.title}}</h2>
+            <p>{{onDisplay.description}}</p>
+            <p> quantity {{onDisplay.quantity}}</p>
+            <p> price $ {{onDisplay.price}}</p>
+        </div>
+     
+      </div>
+  </div>
+  <div class="checkoutContainer__checkout">
+    <div class="checkoutContainer__checkout-items" style="z-index:1">
+      <h2 class="priceTag">Total price $ {{total}}</h2>
+      <ngx-paypal [config]="payPalConfig"></ngx-paypal>
+      <!-- <button style="width: 100%">PAYPAL</button> -->
+      
+    </div>
+  </div>
+</div>

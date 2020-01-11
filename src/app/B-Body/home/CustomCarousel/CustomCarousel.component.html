@@ -1,0 +1,61 @@
+  <div class="carouselContainer">
+      <div *ngIf="steps[2]" style="position: relative; height: inherit;" >
+          <img class="image1" [ngClass]="['click']" width="100%" height="100%" style="object-fit:contain;   " src="https://ae01.alicdn.com/kf/H04826d4ed9404575b6c78d0a6d6e541cK/WPL-B36-Ural-1-16-2-4G-6WD-RC-Truck-Military-Car-Rock-Crawler-Communication-Vehicle.jpg" alt="">
+          <!-- https://firebasestorage.googleapis.com/v0/b/ayia-online.appspot.com/o/Home%2FAYIA23.jpg?alt=media&token=2b64e5af-0d42-4aa5-8aa2-11b49a3f710f -->
+          <h2 class="descHeader1" [ngClass]="{'onChange': true}">
+            CONVOY MILITARY CARGOO
+          </h2>
+          <p class="desc1">
+             Impedit officia omnis earum repellat ipsam aliquam eius libero similique fugiat, recusandae quia consectetur perspiciatis adipisci facere minima saepe qui veritatis voluptatem!
+          <br>
+          <br>
+            <span><button class="btn btn-sm " style="color: black;background-color:white;" routerLink='/online-store/5UhHtO'>find out more</button></span>
+          </p>
+
+
+
+      </div>
+      <!-- https://images.pexels.com/photos/2291016/pexels-photo-2291016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 -->
+      <div *ngIf="steps[1]" style="position: relative; height: inherit;">
+            <img class="image2" [ngClass]="['click']" width="100%" height="100%" style="object-fit: contain" src="https://ae01.alicdn.com/kf/HTB1txIXbHZnBKNjSZFrq6yRLFXaO/Feiyue-FY03-Eagle-3-1-12-2-4G-4WD-Desert-Off-Road-RC-Car-Best-Gift.jpg" alt="">
+            <!-- <img class="image2" [ngClass]="['click']" width="100%" height="100%" style="object-fit: cover" src="https://firebasestorage.googleapis.com/v0/b/ayia-online.appspot.com/o/Home%2FAYIA14.jpg?alt=media&token=c66376be-e550-4847-b9dc-cbb989bfad4c" alt=""> -->
+            <!-- https://images.pexels.com/photos/2291016/pexels-photo-2291016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 -->
+            <h2 class="descHeader2"  [ngClass]="{'onChange': true}">
+             RC CRAWLER 3.0 
+
+            </h2>
+
+            <p class="desc2">
+                DRIVE THROUGH ALL TRAIN, 4WD 
+                
+            </p>
+      </div>
+      <div *ngIf="steps[0]" style=" height: inherit;">
+            <img  class="image3"  [ngClass]="['click']" width="100%" height="100%" style="object-fit: contain;" src="https://ae01.alicdn.com/kf/Hf62b90c4dc494b2fb6afa2d42c83d87fn/Axial-Scx10-2-II-Full-Metal-313-Wheelbase-Frame-Chassis-KIT-Two-speed-Gearbox-Axle-Upgrade.jpg" alt="">
+            <p class="desc3" > RC CRAWLER 2.0         <span> <br><button class="btn btn-sm " style="color: black;background-color:white; padding: 0 5px; font-family: Arial, Helvetica, sans-serif" routerLink='/preview'>Shop</button></span></p>
+      </div>
+
+      <!--  -->
+        <div class="rightSelection" >
+            <i class="click"  (click)="next()" class="far fa-caret-square-right"></i>
+        </div>
+
+        <div class="leftSelection">
+        
+        <i style="border-radius: 50%"  class="click" (click)="prev()" class="far fa-caret-square-left"></i>
+        </div>
+
+ <!--  -->
+
+
+  </div>
+
+
+
+  <!--
+    https://images.pexels.com/photos/1164674/pexels-photo-1164674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+   -->
+
+
+
+   

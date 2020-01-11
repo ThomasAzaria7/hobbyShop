@@ -1,0 +1,52 @@
+<section class="productPreview">
+<div class="productPreview__display">
+  <img [src]="item.img" alt="">
+</div>
+<div class="productPreview__description">
+  <h2>{{item.title}}</h2>
+  <p>
+      What is Lorem Ipsum?
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </p>
+  <div class="buttons">
+      <p class="productPrice"> ${{item.price}}</p>
+    <button>Buy</button>
+    <button (click)="addToCart()">add to cart</button>
+
+  </div>
+</div>
+
+</section>
+<!--  -->
+
+<section id="productInformation">
+    <div class="productInformation__content">
+        <div class="productInformation__content-nav">
+              <ul>
+                <li><a > Specs</a></li>
+                <li><a > shipping</a></li>
+                <li><a > Warranty</a></li>
+              </ul>
+          </div>
+          <div class="productInformation__content-output">
+  
+          </div>
+    </div>
+  
+  </section>
+
+<!--  -->
+<section class="similarProducts">
+    <div class="similarProducts__content-description">
+        <h2>Similar Products</h2>
+      </div>
+  <div class="similarProducts__content"> 
+
+    
+        <div class="similarProducts__content-items"  *ngFor="let item of similarProducts">
+            <img width="100%" height="100%" [src]="item.img" alt="">
+        </div>
+  </div>
+</section>
+
+

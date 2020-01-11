@@ -1,0 +1,36 @@
+<div style="padding:0 5%;">
+
+  <!-- <h2>DRONE ADVENTURE</h2> -->
+
+     
+  <section class="productSection" style="">
+    <h1>
+      RC vehicles and Adventures
+  </h1>
+  <hr>
+    <br>
+    <div class="myProductsContainer" >
+       
+       <div  *ngFor="let carItem of CarsitemsModel; let i=index">
+            <div class="myProductsContainer__item" (click)="PreviewProduct(carItem.id,1)">
+                    <img [src]="carItem.img" alt="">
+                    <h2 >{{carItem.title}}</h2>
+            </div> 
+       </div>
+       
+    </div>
+    <br>
+    
+   
+    
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    
+</section>
+</div>
